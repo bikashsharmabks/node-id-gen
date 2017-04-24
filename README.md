@@ -1,5 +1,5 @@
-# node-flake-gen
-node-flake-gen -  A set of decentralized, k-ordered id generation services using nodejs + redis + lua
+# node-id-gen
+node-id-gen -  A sequence id generation services using nodejs + redis + lua
 
 
 ##WIP
