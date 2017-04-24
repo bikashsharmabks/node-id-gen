@@ -1,14 +1,14 @@
 {
-  "name": "node-flake-gen",
+  "name": "node-id-gen",
   "version": "1.0.0",
-  "description": "node-flake-gen - A set of decentralized, k-ordered id generation services using nodejs + redis + lua",
+  "description": "node-id-gen - A sequence id generation services using nodejs + redis + lua",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bikashsharmabks/node-flake-gen.git"
+    "url": "git+https://github.com/bikashsharmabks/node-id-gen.git"
   },
   "keywords": [
     "uuid",
@@ -21,9 +21,9 @@
   "author": "Bikash Kumar Sharma",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bikashsharmabks/node-flake-gen/issues"
+    "url": "https://github.com/bikashsharmabks/node-id-gen/issues"
   },
-  "homepage": "https://github.com/bikashsharmabks/node-flake-gen#readme",
+  "homepage": "https://github.com/bikashsharmabks/node-id-gen#readme",
   "dependencies": {
     "debug": "^2.6.3",
     "redis": "^2.7.1"
