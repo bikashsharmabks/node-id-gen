@@ -25,7 +25,7 @@ nodeIdGen.next('userId').then(function(seq) {
 
 ## Options ##
 
-We have few options while init nodeIdGen
+We have few options with init() method
 ```js
 nodeIdGen.init(redisClient, {
 	'retryTimes': 10,  //default 100
