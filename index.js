@@ -1,1 +1,1 @@
-module.exports = require("./lib/node-flake-gen");
+module.exports = require("./lib/node-id-gen");

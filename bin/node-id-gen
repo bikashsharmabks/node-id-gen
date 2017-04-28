@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var nodeIdGen = require('..');
+var redis = require('redis');
+
+var redisClient = redis.createClient();
+
+nodeIdGen.init(redisClient);
+
+nodeIdGen.createSequence({'name': 'userId'});
+
+nodeIdGen.next('userId').then(function(seq) {
+	console.log(seq);
+	process.exit(0);
+}).catch(function(err) {
+	console.log(err);
+	process.exit(0);
+});
