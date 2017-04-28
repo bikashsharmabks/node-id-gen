@@ -2,14 +2,11 @@
 node-id-gen -  A sequence id generation services using nodejs + redis + lua
 
 
-Installing node-id-gen npm module
+## Installation ##
+$ npm install --save node-id-gen ⏎
 
-```
-> npm install node-id-gen
-
-```
-
-```
+## Usage ##
+```js
 var nodeIdGen = require('node-id-gen');
 var redisClient = require('redis').createClient();
 
@@ -24,3 +21,10 @@ nodeIdGen.next('userId').then(function(seq) {
 	console.log(err);
 });
 ```
+
+## Author ##
+Writen by Bikash Kumar Sharma - [Blog](http://bikashsharma.me)
+
+## License ##
+
+Copyright (c) 2017 Bikash Kumar Sharma
