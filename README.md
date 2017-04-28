@@ -15,7 +15,7 @@ nodeIdGen.init(redisClient);
 //create a auto increment sequence for userId
 nodeIdGen.createSequence({'name': 'userId'});
 
-//next method which is promise
+//next method which is promise and return the sequence
 nodeIdGen.next('userId').then(function(seq) {
 	console.log(seq);  // 1
 }).catch(function(err) {
