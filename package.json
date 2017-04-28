@@ -1,6 +1,6 @@
 {
   "name": "node-id-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-id-gen - A sequence id generation services using nodejs + redis + lua",
   "main": "index.js",
   "scripts": {
